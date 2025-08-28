@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Location",
+    "text": "Odesa, Ukraine",
+    "link": "https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6",
+    "type": "location"
+  },
+  {
+    "title": "Phone",
+    "text": "+1 212-708-9400",
+    "link": "tel:+12127089400",
+    "type": "phone"
+  },
+  {
+    "title": "Email",
+    "text": "hello@alexwalker.com",
+    "link": "mailto:example@example.com?subject=Message%20from%20your%20site",
+    "type": "email"
+  }
+]

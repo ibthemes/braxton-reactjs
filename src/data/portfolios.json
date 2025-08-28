@@ -1,0 +1,66 @@
+[
+  {
+    "href": "/img/works/1400x1400_w01.webp",
+    "dataImage": "/img/works/1400x1400_w01.webp",
+    "src": "/img/works/800_w01-thumb.webp",
+    "alt": "Isometric House",
+    "figcaptionClass": "gallery__descr",
+    "title": "Isometric House",
+    "titleClass": "",
+    "tags": [
+      { "text": "Illustrations", "className": "rounded-tag opposite" },
+      { "text": "3D Render", "className": "rounded-tag opposite" }
+    ],
+    "description": "Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio.",
+    "width": 1400,
+    "height": 1400
+  },
+  {
+    "href": "/img/works/1400x1400_w02.webp",
+    "dataImage": "/img/works/1400x1400_w02.webp",
+    "src": "/img/works/800_w02-thumb.webp",
+    "alt": "Dashboard Template",
+    "figcaptionClass": "gallery__descr opposite",
+    "title": "Dashboard Template",
+    "titleClass": "opposite",
+    "tags": [
+      { "text": "UI Design", "className": "rounded-tag" },
+      { "text": "Figma", "className": "rounded-tag" }
+    ],
+    "description": "Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.",
+    "width": 1400,
+    "height": 1400
+  },
+  {
+    "href": "/img/works/1400x1400_w03.webp",
+    "dataImage": "/img/works/1400x1400_w03.webp",
+    "src": "/img/works/800_w03-thumb.webp",
+    "alt": "Notification Icon",
+    "figcaptionClass": "gallery__descr opposite",
+    "title": "Notification Icon",
+    "titleClass": "opposite",
+    "tags": [
+      { "text": "Illustrations", "className": "rounded-tag" },
+      { "text": "3D Render", "className": "rounded-tag" }
+    ],
+    "description": "Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.",
+    "width": 1400,
+    "height": 1400
+  },
+  {
+    "href": "/img/works/1400x1400_w04.webp",
+    "dataImage": "/img/works/1400x1400_w04.webp",
+    "src": "/img/works/800_w04-thumb.webp",
+    "alt": "Smart Penguin",
+    "figcaptionClass": "gallery__descr",
+    "title": "Smart Penguin",
+    "titleClass": "",
+    "tags": [
+      { "text": "Illustrations", "className": "rounded-tag opposite" },
+      { "text": "AI Experiment", "className": "rounded-tag opposite" }
+    ],
+    "description": "Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.",
+    "width": 1400,
+    "height": 1400
+  }
+]

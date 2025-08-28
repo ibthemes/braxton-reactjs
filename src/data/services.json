@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Frontend development",
+    "tags": ["UI/UX Design", "Design to Code"],
+    "text": "I work with HTML/CSS, Framer and WordPress.",
+    "img": "/img/services/1200x900_s01.webp"
+  },
+  {
+    "title": "Digital art and graphic design",
+    "tags": ["Illustrations", "AI Experiments"],
+    "text": "I use Adobe Photoshop, Fresco and Blender to create illustrations and 3D renders for my clients and stocks.",
+    "img": "/img/services/1200x900_s02.webp"
+  },
+  {
+    "title": "SEO/Digital marketing solutions",
+    "tags": ["Social Media", "Analytics"],
+    "text": "Social media content plans, media monitoring, email and text messaging and search engine optimization.",
+    "img": "/img/services/1200x900_s03.webp"
+  },
+  {
+    "title": "Brand identity",
+    "tags": ["Logo Design", "Style Guides"],
+    "text": "I help my clients to develop a personality and brand voice, design the brand look and logo.",
+    "img": "/img/services/1200x900_s04.webp"
+  }
+]

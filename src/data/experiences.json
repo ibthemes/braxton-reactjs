@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2018 - 2019",
+    "title": "Illustrator",
+    "agency": {
+      "name": "Creative Mind",
+      "link": "#"
+    },
+    "description": "I created original images for a range of digital and printed products."
+  },
+  {
+    "date": "2019 - 2021",
+    "title": "Graphic Designer",
+    "agency": {
+      "name": "Moon Light",
+      "link": "#"
+    },
+    "description": "My job was to create adverts, branding, signage and other media products."
+  },
+  {
+    "date": "2021 - now",
+    "title": "UI/UX Designer",
+    "agency": {
+      "name": "Moon Light",
+      "link": "#"
+    },
+    "description": "I am actively involved in creating user interfaces for mobile apps and websites."
+  }
+]

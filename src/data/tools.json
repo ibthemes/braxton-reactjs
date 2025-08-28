@@ -1,0 +1,42 @@
+[
+  {
+    "src": "/img/icons/icon-photoshop.svg",
+    "alt": "Tools Icon",
+    "caption": "Photoshop"
+  },
+  {
+    "src": "/img/icons/icon-figma.svg",
+    "alt": "Tools Icon",
+    "caption": "Figma"
+  },
+  {
+    "src": "/img/icons/icon-illustrator.svg",
+    "alt": "Tools Icon",
+    "caption": "Illustrator"
+  },
+  {
+    "src": "/img/icons/icon-scketch.svg",
+    "alt": "Tools Icon",
+    "caption": "Sketch"
+  },
+  {
+    "src": "/img/icons/icon-blender.svg",
+    "alt": "Tools Icon",
+    "caption": "Blender"
+  },
+  {
+    "src": "/img/icons/icon-html.svg",
+    "alt": "Tools Icon",
+    "caption": "HTML5"
+  },
+  {
+    "src": "/img/icons/icon-css.svg",
+    "alt": "Tools Icon",
+    "caption": "CSS3"
+  },
+  {
+    "src": "/img/icons/icon-notion.svg",
+    "alt": "Tools Icon",
+    "caption": "Notion"
+  }
+]
