@@ -8,7 +8,9 @@ export default function MarqueeSlider() {
         className="marquee__inner"
         slidesPerView={"auto"}
         modules={[Autoplay]}
-        autoplay
+        autoplay={{
+          delay: 0,
+        }}
         loop
         speed={5000}
       >
