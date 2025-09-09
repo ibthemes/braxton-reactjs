@@ -439,7 +439,8 @@ export default function Contact() {
             {socials.map((social, idx) => (
               <div
                 key={idx}
-                className="socials-cards__item d-flex grid-item-s animate-card-5"
+                data-delay={0.2 * idx}
+                className="socials-cards__item d-flex grid-item-s animate-card-5 animate-in-up"
               >
                 <div className="socials-cards__card">
                   <i className={social.icon} />
