@@ -23,7 +23,7 @@ export default function PreviewPage() {
             <ThemeSwitcherButton parentClass="color-switcher btn mobile-horizontal btn-square btn-hover btn-hover-transparent" />
             <a
               className="btn mobile-horizontal btn-square-mobile btn-hover btn-hover-accent"
-              href="https://themeforest.net/user/elite-themes24/portfolio"
+              href="https://themeforest.net/item/braxton-personal-portfolio-resume-react-template/59558043"
               target="_blank"
             >
               {/* template link here */}

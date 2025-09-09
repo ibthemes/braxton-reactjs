@@ -68,7 +68,7 @@ export default function Footer() {
                 <div className="footercta__cta animate-in-up">
                   <a
                     className="btn btn-default btn-hover btn-hover-accent"
-                    href="https://themeforest.net/user/elite-themes24/portfolio"
+                    href="https://themeforest.net/item/braxton-personal-portfolio-resume-react-template/59558043"
                     target="_blank"
                   >
                     {/* template link here */}
@@ -93,7 +93,7 @@ export default function Footer() {
                   Made with <i className="ph ph-heart" /> by{" "}
                   <a
                     className="text-link-bold"
-                    href="https://themeforest.net/user/elite-themes24/portfolio"
+                    href="https://themeforest.net/item/braxton-personal-portfolio-resume-react-template/59558043"
                     target="_blank"
                   >
                     elite-themes24

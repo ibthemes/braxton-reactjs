@@ -108,7 +108,7 @@ export default function Intro() {
             </a>
             <a
               className="btn mobile-vertical btn-default btn-hover btn-hover-outline animate-in-up"
-              href="https://themeforest.net/user/elite-themes24/portfolio"
+              href="https://themeforest.net/item/braxton-personal-portfolio-resume-react-template/59558043"
               target="_blank"
             >
               <span className="btn-caption">Buy Now</span>

@@ -38,6 +38,7 @@ export default function Testimonials() {
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             }}
+            loop={true}
             spaceBetween={30}
             slidesPerView={1}
           >
