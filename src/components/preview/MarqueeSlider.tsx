@@ -1,4 +1,4 @@
-"use client";
+
 
 import MarqueeWrapper from "../scroll/MarqueeWrapper";
 

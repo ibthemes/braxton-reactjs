@@ -1,4 +1,4 @@
-"use client";
+
 import testimonials from "@/data/testimonials.json";
 
 import { Navigation } from "swiper/modules";
