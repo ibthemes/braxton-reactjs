@@ -1,14 +1,14 @@
 [
   {
     "title": "Location",
-    "text": "Odesa, Ukraine",
+    "text": "California, USA",
     "link": "https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6",
     "type": "location"
   },
   {
     "title": "Phone",
-    "text": "+1 212-708-9400",
-    "link": "tel:+12127089400",
+    "text": "+1-951-239-0523",
+    "link": "tel:+1-951-239-0523",
     "type": "phone"
   },
   {

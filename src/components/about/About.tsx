@@ -124,7 +124,7 @@ export default function About() {
                     href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6"
                     target="_blank"
                   >
-                    Odesa, Ukraine
+                    California, USA
                   </a>
                 </h6>
               </div>
