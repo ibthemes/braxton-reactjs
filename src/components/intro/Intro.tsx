@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef } from "react";
 
 export default function Intro() {
@@ -54,7 +55,11 @@ export default function Intro() {
           </svg>
           <span>Let&apos;s meet!</span>
         </p>
-        <h1 className="headline__title animate-in-up">
+        <h1
+          className="headline__title animate-in-up"
+          data-duration="0.6"
+          data-delay="0.4"
+        >
           I&apos;m Alex Walker
           <br />
           Digital designer and illustrator.
@@ -63,6 +68,8 @@ export default function Intro() {
           <a
             className="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-in-up"
             href="#portfolio"
+            data-delay="0.5"
+            data-duration="0.7"
           >
             <span className="btn-caption">My Works</span>
             <i className="ph-bold ph-squares-four" />
@@ -71,7 +78,8 @@ export default function Intro() {
             className="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-in-up"
             href="/resume-sample.pdf"
             download
-            data-delay="0.1"
+            data-delay=".8"
+            data-duration="0.8"
             target="_blank"
           >
             <span className="btn-caption">Download CV</span>

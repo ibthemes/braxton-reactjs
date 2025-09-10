@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef, useState } from "react";
 import portfolioItems from "@/data/portfolios.json";
 import Lightbox, { type FullscreenRef } from "yet-another-react-lightbox";

@@ -95,13 +95,19 @@ export default function Intro() {
             </svg>
             <span>Meet Braxton!</span>
           </p>
-          <h1 className="headline__title animate-in-up">
+          <h1
+            className="headline__title animate-in-up"
+            data-duration="0.6"
+            data-delay="0.4"
+          >
             Clean and bright portfolio React.Js template
           </h1>
           <div className="headline__btnholder d-flex flex-column flex-sm-row">
             <a
               className="btn mobile-vertical btn-default btn-hover btn-hover-accent animate-in-up"
               href="#live-preview"
+              data-delay="0.5"
+              data-duration="0.7"
             >
               <span className="btn-caption">View Demos</span>
               <i className="ph-bold ph-squares-four" />
@@ -110,6 +116,8 @@ export default function Intro() {
               className="btn mobile-vertical btn-default btn-hover btn-hover-outline animate-in-up"
               href="https://themeforest.net/item/braxton-personal-portfolio-resume-react-template/59558043"
               target="_blank"
+              data-delay=".8"
+              data-duration="0.8"
             >
               <span className="btn-caption">Buy Now</span>
               <i className="ph-bold ph-basket" />

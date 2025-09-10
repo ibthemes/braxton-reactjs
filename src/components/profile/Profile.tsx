@@ -4,7 +4,7 @@ export default function Profile({
   profileImage = "/img/avatars/1024x1024_a01.webp",
 }) {
   return (
-    <div id="avatar" className="avatar">
+    <div id="avatar" className="avatar animate-fade">
       <div className="avatar__container d-flex flex-column justify-content-lg-between">
         {/* image and logo */}
         <div className="avatar__block">
@@ -74,7 +74,7 @@ export default function Profile({
         <div className="avatar__block">
           <h6>
             <small className="top">Based in:</small>
-            Odesa, Ukraine
+            California, USA
           </h6>
         </div>
 

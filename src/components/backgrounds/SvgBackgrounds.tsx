@@ -1,8 +1,26 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import ParallaxItem from "../scroll/Parallax";
+
 export default function SvgBackgrounds() {
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoaded(true);
+    }, 800);
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
+
   return (
-    <div id="svgBackground" className="svg-background loaded">
+    <div
+      id="svgBackground"
+      className={`svg-background ${loaded ? "loaded" : ""}`}
+    >
       {/* top svg item */}
-      <div className="background__svg01" data-speed="0.8">
+      <ParallaxItem speed={0.8} className="background__svg01">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1000"
@@ -26,10 +44,10 @@ export default function SvgBackgrounds() {
           </defs>
           <circle fill="url(#color-gradient)" cx="500" cy="500" r="500" />
         </svg>
-      </div>
+      </ParallaxItem>
 
       {/* bottom svg item */}
-      <div className="background__svg02" data-speed="0.4">
+      <ParallaxItem speed={0.4} className="background__svg02">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="430"
@@ -56,7 +74,7 @@ export default function SvgBackgrounds() {
             d="M63,63C146.9-21,282.9-21,366.8,62.9s83.8,219.9-0.1,303.8s-219.9,83.9-303.8,0.1S-20.9,146.9,63,63z"
           />
         </svg>
-      </div>
+      </ParallaxItem>
     </div>
   );
 }

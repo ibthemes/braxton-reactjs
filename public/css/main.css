@@ -2434,8 +2434,8 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 992px) {
   .main {
-    height: -moz-calc(100vh - 65rem);
-    height: calc(100vh - 65rem);
+    height: -moz-calc(100vh - 80rem);
+    height: calc(100vh - 80rem);
     padding: 0;
   }
 }

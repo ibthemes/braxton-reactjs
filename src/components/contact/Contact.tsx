@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import socials from "@/data/socials.json";
@@ -439,8 +441,8 @@ export default function Contact() {
             {socials.map((social, idx) => (
               <div
                 key={idx}
-                data-delay={0.2 * idx}
-                className="socials-cards__item d-flex grid-item-s animate-card-5 animate-in-up"
+                data-delay={0.225 * idx}
+                className="socials-cards__item d-flex grid-item-s animate-in-up"
               >
                 <div className="socials-cards__card">
                   <i className={social.icon} />

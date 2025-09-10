@@ -1,13 +1,12 @@
 /*! ------------------------------------------------
- * Project Name: Name: Braxton - Personal Portfolio & Resume HTML Template
+ * Project Name: Name: Braxton - Personal Portfolio & Resume ReactJs Template
  * Project Description: Show yourself brightly with Braxton - unique and creative portfolio and resume template!
- * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
- * Version: 1.0.1
- * Build Date: March 2024
- * Last Update: April 2025
+ * Tags: elite-themes24, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
+ * Version: 1.0.0
+ * Build Date: 28 August 2025
  * This product is available exclusively on Themeforest
- * Author: mix_design
- * Author URI: https://themeforest.net/user/mix_design */
+ * Author: elite-themes24
+ * Author URI: https://themeforest.net/user/elite-themes24 */
 /*! File name: main-demo.css
  * ------------------------------------------------
  *
@@ -270,11 +269,7 @@
   width: 40px;
   height: 40px;
   background: var(--accent);
-  background: -moz-linear-gradient(
-    315deg,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -moz-linear-gradient(315deg, var(--accent) 0%, var(--secondary) 100%);
   background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
   -webkit-animation: jump 0.5s linear infinite;
   -moz-animation: jump 0.5s linear infinite;
@@ -532,18 +527,8 @@ a {
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--secondary);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(var(--accent)),
-    to(var(--secondary))
-  );
-  background: linear-gradient(
-    to bottom,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--accent)), to(var(--secondary)));
+  background: linear-gradient(to bottom, var(--accent) 0%, var(--secondary) 100%);
   border-radius: 10px;
 }
 
@@ -620,11 +605,7 @@ h1 {
   font: normal 700 3.8rem/1.2 var(--_font-accent);
   color: var(--t-accent);
   background: var(--t-accent);
-  background: -webkit-linear-gradient(
-    15deg,
-    var(--t-accent) 0%,
-    var(--t-secondary) 80%
-  );
+  background: -webkit-linear-gradient(15deg, var(--t-accent) 0%, var(--t-secondary) 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -746,32 +727,48 @@ a {
   color: inherit;
   color: var(--t-bright);
   text-decoration: none;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(0, 0, 0, 0)),
-      to(rgba(0, 0, 0, 0))
-    ),
+  background:
+    -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))),
     -webkit-gradient(linear, left top, right top, from(var(--accent)), to(var(--secondary)));
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  background:
+    -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     -moz-linear-gradient(left, var(--accent), var(--secondary));
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     linear-gradient(to right, var(--accent), var(--secondary));
-  -moz-background-size: 100% 1px, 0 1px;
-  background-size: 100% 1px, 0 1px;
-  background-position: 100% 100%, 0 100%;
+  -moz-background-size:
+    100% 1px,
+    0 1px;
+  background-size:
+    100% 1px,
+    0 1px;
+  background-position:
+    100% 100%,
+    0 100%;
   background-repeat: no-repeat;
-  -webkit-transition: background-size 400ms, color 300ms;
-  -moz-transition: background-size 400ms, color 300ms,
+  -webkit-transition:
+    background-size 400ms,
+    color 300ms;
+  -moz-transition:
+    background-size 400ms,
+    color 300ms,
     -moz-background-size 400ms;
-  transition: background-size 400ms, color 300ms;
-  transition: background-size 400ms, color 300ms, -moz-background-size 400ms;
+  transition:
+    background-size 400ms,
+    color 300ms;
+  transition:
+    background-size 400ms,
+    color 300ms,
+    -moz-background-size 400ms;
 }
 .no-touch .text-link-bold:hover {
   color: var(--t-bright);
-  -moz-background-size: 0 1px, 100% 1px;
-  background-size: 0 1px, 100% 1px;
+  -moz-background-size:
+    0 1px,
+    100% 1px;
+  background-size:
+    0 1px,
+    100% 1px;
 }
 
 .btn {
@@ -856,10 +853,12 @@ a {
   will-change: transform;
   -webkit-transition: -webkit-transform 0.3s var(--_animbezier);
   transition: -webkit-transform 0.3s var(--_animbezier);
-  -moz-transition: transform 0.3s var(--_animbezier),
+  -moz-transition:
+    transform 0.3s var(--_animbezier),
     -moz-transform 0.3s var(--_animbezier);
   transition: transform 0.3s var(--_animbezier);
-  transition: transform 0.3s var(--_animbezier),
+  transition:
+    transform 0.3s var(--_animbezier),
     -webkit-transform 0.3s var(--_animbezier),
     -moz-transform 0.3s var(--_animbezier);
 }
@@ -1025,52 +1024,48 @@ a {
 
 .btn-hover-accent::before {
   background: var(--accent);
-  background: -moz-linear-gradient(
-    315deg,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -moz-linear-gradient(315deg, var(--accent) 0%, var(--secondary) 100%);
   background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
 }
 .btn-hover-accent i,
 .btn-hover-accent span {
-  text-shadow: 0 0 var(--t-opp-bright), 0 5rem var(--t-opp-bright);
+  text-shadow:
+    0 0 var(--t-opp-bright),
+    0 5rem var(--t-opp-bright);
 }
 @media only screen and (min-width: 1200px) {
   .no-touch .btn-hover-accent:hover i,
   .no-touch .btn-hover-accent:hover span {
-    text-shadow: 0 -5rem var(--t-opp-bright), 0 0 var(--t-opp-bright);
+    text-shadow:
+      0 -5rem var(--t-opp-bright),
+      0 0 var(--t-opp-bright);
   }
 }
 @media only screen and (min-width: 1600px) {
   .btn-hover-accent i,
   .btn-hover-accent span {
-    text-shadow: 0 0 var(--t-opp-bright), 0 6rem var(--t-opp-bright);
+    text-shadow:
+      0 0 var(--t-opp-bright),
+      0 6rem var(--t-opp-bright);
   }
   .no-touch .btn-hover-accent:hover i,
   .no-touch .btn-hover-accent:hover span {
-    text-shadow: 0 -6rem var(--t-opp-bright), 0 0 var(--t-opp-bright);
+    text-shadow:
+      0 -6rem var(--t-opp-bright),
+      0 0 var(--t-opp-bright);
   }
 }
 
 .btn-accent {
   background: var(--accent);
-  background: -moz-linear-gradient(
-    315deg,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -moz-linear-gradient(315deg, var(--accent) 0%, var(--secondary) 100%);
   background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
   color: var(--t-opp-bright);
 }
 
 .btn-hover-accent-mobile::before {
   background: var(--accent);
-  background: -moz-linear-gradient(
-    315deg,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -moz-linear-gradient(315deg, var(--accent) 0%, var(--secondary) 100%);
   background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
 }
 .btn-hover-accent-mobile i,
@@ -1091,31 +1086,35 @@ a {
   .btn-hover-accent-mobile i,
   .btn-hover-accent-mobile span {
     color: rgba(0, 0, 0, 0);
-    text-shadow: 0 0 var(--t-bright), 0 5rem var(--t-bright);
+    text-shadow:
+      0 0 var(--t-bright),
+      0 5rem var(--t-bright);
   }
   .no-touch .btn-hover-accent-mobile:hover i,
   .no-touch .btn-hover-accent-mobile:hover span {
-    text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -5rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 @media only screen and (min-width: 1600px) {
   .btn-hover-accent-mobile i,
   .btn-hover-accent-mobile span {
-    text-shadow: 0 0 var(--t-bright), 0 6rem var(--t-bright);
+    text-shadow:
+      0 0 var(--t-bright),
+      0 6rem var(--t-bright);
   }
   .no-touch .btn-hover-accent-mobile:hover i,
   .no-touch .btn-hover-accent-mobile:hover span {
-    text-shadow: 0 -6rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -6rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 
 .btn-accent-mobile {
   background: var(--accent);
-  background: -moz-linear-gradient(
-    315deg,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -moz-linear-gradient(315deg, var(--accent) 0%, var(--secondary) 100%);
   background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
   color: var(--t-opp-bright);
 }
@@ -1135,22 +1134,30 @@ a {
 }
 .btn-hover-outline i,
 .btn-hover-outline span {
-  text-shadow: 0 0 var(--t-bright), 0 5rem var(--t-bright);
+  text-shadow:
+    0 0 var(--t-bright),
+    0 5rem var(--t-bright);
 }
 @media only screen and (min-width: 1200px) {
   .no-touch .btn-hover-outline:hover i,
   .no-touch .btn-hover-outline:hover span {
-    text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -5rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 @media only screen and (min-width: 1600px) {
   .btn-hover-outline i,
   .btn-hover-outline span {
-    text-shadow: 0 0 var(--t-bright), 0 6rem var(--t-bright);
+    text-shadow:
+      0 0 var(--t-bright),
+      0 6rem var(--t-bright);
   }
   .no-touch .btn-hover-outline:hover i,
   .no-touch .btn-hover-outline:hover span {
-    text-shadow: 0 -6rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -6rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 
@@ -1182,21 +1189,29 @@ a {
   .btn-hover-outline-mobile i,
   .btn-hover-outline-mobile span {
     color: rgba(0, 0, 0, 0);
-    text-shadow: 0 0 var(--t-disabled), 0 5rem var(--t-disabled);
+    text-shadow:
+      0 0 var(--t-disabled),
+      0 5rem var(--t-disabled);
   }
   .no-touch .btn-hover-outline-mobile:hover i,
   .no-touch .btn-hover-outline-mobile:hover span {
-    text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -5rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 @media only screen and (min-width: 1600px) {
   .btn-hover-outline-mobile i,
   .btn-hover-outline-mobile span {
-    text-shadow: 0 0 var(--t-disabled), 0 6rem var(--t-disabled);
+    text-shadow:
+      0 0 var(--t-disabled),
+      0 6rem var(--t-disabled);
   }
   .no-touch .btn-hover-outline-mobile:hover i,
   .no-touch .btn-hover-outline-mobile:hover span {
-    text-shadow: 0 -6rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -6rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 
@@ -1220,22 +1235,30 @@ a {
 }
 .btn-hover-transparent i,
 .btn-hover-transparent span {
-  text-shadow: 0 0 var(--t-bright), 0 5rem var(--t-disabled);
+  text-shadow:
+    0 0 var(--t-bright),
+    0 5rem var(--t-disabled);
 }
 @media only screen and (min-width: 1200px) {
   .no-touch .btn-hover-transparent:hover i,
   .no-touch .btn-hover-transparent:hover span {
-    text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-disabled);
+    text-shadow:
+      0 -5rem var(--t-bright),
+      0 0 var(--t-disabled);
   }
 }
 @media only screen and (min-width: 1600px) {
   .btn-hover-transparent i,
   .btn-hover-transparent span {
-    text-shadow: 0 0 var(--t-bright), 0 6rem var(--t-disabled);
+    text-shadow:
+      0 0 var(--t-bright),
+      0 6rem var(--t-disabled);
   }
   .no-touch .btn-hover-transparent:hover i,
   .no-touch .btn-hover-transparent:hover span {
-    text-shadow: 0 -6rem var(--t-bright), 0 0 var(--t-bright);
+    text-shadow:
+      0 -6rem var(--t-bright),
+      0 0 var(--t-bright);
   }
 }
 
@@ -1555,11 +1578,7 @@ a {
   line-height: 5rem;
   background-color: #0f0f0f;
   background: var(--accent);
-  background: -moz-linear-gradient(
-    315deg,
-    var(--accent) 0%,
-    var(--secondary) 100%
-  );
+  background: -moz-linear-gradient(315deg, var(--accent) 0%, var(--secondary) 100%);
   background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
   color: var(--t-opp-bright);
   font-weight: 700;
@@ -1914,18 +1933,30 @@ a {
   z-index: 3;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -webkit-transition:
+    opacity 0.3s 0s,
+    visibility 0s 0.3s;
+  -moz-transition:
+    opacity 0.3s 0s,
+    visibility 0s 0.3s;
+  transition:
+    opacity 0.3s 0s,
+    visibility 0s 0.3s;
 }
 .to-top i {
   font-size: 1.6rem;
 }
 .to-top.is-visible,
 .to-top.fade-out {
-  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
-  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
-  transition: opacity 0.3s 0s, visibility 0s 0s;
+  -webkit-transition:
+    opacity 0.3s 0s,
+    visibility 0s 0s;
+  -moz-transition:
+    opacity 0.3s 0s,
+    visibility 0s 0s;
+  transition:
+    opacity 0.3s 0s,
+    visibility 0s 0s;
 }
 .to-top.is-visible {
   visibility: visible;

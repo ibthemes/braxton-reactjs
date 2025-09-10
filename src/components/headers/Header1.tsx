@@ -1,3 +1,4 @@
+"use client";
 import menuItems from "@/data/menu.json";
 import { useEffect, useState } from "react";
 import ThemeSwitcherButton from "./ThemeSwitcherButton";

@@ -1,3 +1,4 @@
+"use client";
 import testimonials from "@/data/testimonials.json";
 
 import { Navigation } from "swiper/modules";
@@ -38,9 +39,9 @@ export default function Testimonials() {
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             }}
-            loop={true}
             spaceBetween={30}
             slidesPerView={1}
+            loop
           >
             {testimonials.map((item, idx) => (
               <SwiperSlide className="swiper-slide" key={idx}>
